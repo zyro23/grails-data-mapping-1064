@@ -88,6 +88,8 @@ hibernate:
         queries: false
         use_second_level_cache: false
         use_query_cache: false
+    flush:
+        mode: AUTO
 dataSource:
     pooled: true
     jmxExport: true
